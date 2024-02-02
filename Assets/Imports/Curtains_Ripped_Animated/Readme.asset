@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcf7219bab7fe46a1ad266029b2fee19, type: 3}
+  m_Name: Readme
+  m_EditorClassIdentifier: 
+  icon: {fileID: 2800000, guid: 71d697a2b47019a498f5cb675c598555, type: 3}
+  title: Curtains Ripped Animated - Blowdini
+  sections:
+  - heading: Introduction
+    text: 'This Asset Package contains 7 ripped curtain assets. The shaders are created with the shader graph
+	and for the High Definition Render Pipeline to enable features like Translucency. 
+	The use of shader graph makes it very easy to customize the shaders if needed. '
+    linkText: 
+    url: 
+  - heading: Shader Settings
+    text: There are two shaders types (HDRP_Curtain and HDRP_Curtain_Translucent). Use the prefab which fits your scene and performance demands.
+    linkText: 
+    url: 
+  - heading: 
+    text: Base Color - RGB is used for color, A is used for alpha
+    linkText: 
+    url: 
+  - heading: 
+    text: Base Map Tint - Multiply Color on Base Map
+    linkText: 
+    url: 
+  - heading: 
+    text: Use Alpha - Turns Alpha Clipping on or off
+    linkText: 
+    url: 
+  - heading: 
+    text: Smoothness Map - R is Smoothness
+    linkText: 
+    url: 
+  - heading: 
+    text: Smoothness Multiplier - Multiply Smoothness Map by this value
+    linkText: 
+    url:
+  - heading: 
+    text: Normal Map - RGB is used for Normal Map
+    linkText: 
+    url:
+  - heading: 
+    text: Normal Strenght - Multiply Normal Map Strenght by this value
+    linkText: 
+    url:
+  - heading: 
+    text: Wind Direction - XYZ are the amount of displacement the mesh gets in each direction (Ignore W)
+    linkText: 
+    url:
+  - heading: 
+    text: Use World Position - Switch between World and Object Space for the Wind Simulation
+    linkText: 
+    url:
+  - heading: 
+    text: Wind Speed - The Speed at which the noise texture scrolls over the surface
+    linkText: 
+    url:
+  - heading: 
+    text: Wind Size - Size if the noise texture (bigger means smaller waves)
+    linkText: 
+    url:
+  - heading: 
+    text: Cloth Thickness - Only in translucent shader, affects the amount of translucency in the cloth shader
+    linkText: 
+    url:
+  - heading: 
+    text: Diffusion Profile - Lets you use a custom diffusion profile. Note, if shader apears green you may have to also add the Diffusion Profile to HDRenderPipelineAsset > Material > Diffusion Profile List
+    linkText: Visit other assets from Blowdini
+    url: https://blowdini.weebly.com/
+  loadedLayout: 1
